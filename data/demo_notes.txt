@@ -1,0 +1,37 @@
+Operating Systems - Unit 1 Notes
+
+An operating system (OS) is system software that manages computer hardware and
+software resources and provides common services for computer programs.
+
+Key Functions:
+1. Process Management - The OS handles the creation, scheduling, and termination
+   of processes. It uses scheduling algorithms like FCFS, SJF, Round Robin, and
+   Priority Scheduling to decide which process runs next on the CPU.
+2. Memory Management - The OS keeps track of each byte in a computer's memory
+   and manages the allocation and deallocation of memory space as needed by
+   programs. Techniques include paging, segmentation, and virtual memory.
+3. File System Management - The OS manages files and directories on storage
+   devices, handling creation, deletion, reading, and writing of files.
+4. Device Management - The OS manages device communication via device drivers,
+   coordinating access to devices such as printers, disks, and network cards.
+5. Security and Access Control - The OS enforces permissions and protects
+   system resources from unauthorized access.
+
+Types of Operating Systems:
+- Batch Operating System
+- Time-Sharing Operating System
+- Distributed Operating System
+- Real-Time Operating System (RTOS)
+- Multiprocessing Operating System
+
+Process States:
+A process moves through states: New -> Ready -> Running -> Waiting -> Terminated.
+
+Deadlock:
+A deadlock occurs when a set of processes are blocked because each process is
+holding a resource and waiting for another resource acquired by some other
+process. The four necessary conditions for deadlock are: Mutual Exclusion,
+Hold and Wait, No Preemption, and Circular Wait.
+
+This file is a sample used to test the Notes Lab feature of StudyMate AI.
+Upload your own PDF or TXT notes to replace this sample.
